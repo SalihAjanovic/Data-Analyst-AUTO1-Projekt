@@ -2,11 +2,9 @@
 
 🛠️ Project Overview
 
-This project focuses on developing an interactive dashboard to analyze logistics performance using the Delhivery dataset.
-The goal is to derive insights regarding transport times, route optimization, and delivery performance to support data-driven decision-making.
+This project focuses on developing an interactive dashboard to analyze logistics performance using the Delhivery dataset.The goal is to derive insights regarding transport times, route optimization, and delivery performance to support data-driven decision-making.
 
-Relevance:
-The project aligns with the requirements of the Business Analyst position (d/m/w) at AUTO1 Group, especially in logistics performance analysis.
+Relevance:The project aligns with the requirements of the Business Analyst position (d/m/w) at AUTO1 Group, especially in logistics performance analysis.
 
 🗂️ Dataset Description
 
@@ -148,5 +146,7 @@ Develop pivot tables in Excel.
 
 Build an interactive dashboard in Looker Studio.
 
-🖊️ Note:This project was developed as part of an application for the Business Analyst (d/m/w) position at AUTO1 Group.
+🖊️ Note:
+
+This project was developed as part of an application for the Business Analyst (d/m/w) position at AUTO1 Group.
 
