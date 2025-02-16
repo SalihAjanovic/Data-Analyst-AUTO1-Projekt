@@ -42,31 +42,31 @@ od_start_time: Start time of the trip
 
 od_end_time: End time of the trip
 
-start_scan_to_end_scan: Duration from the start to the end scan
+start_scan_to_end_scan: Duration from the start to the end scan (numeric, with values ranging from 20 to 7898)
 
-is_cutoff: Indicator for cutoff occurrence
+is_cutoff: Indicator for cutoff occurrence (True/False)
 
-cutoff_factor: Factor associated with cutoff
+cutoff_factor: Factor associated with cutoff (mean: 232.93, max: 1927)
 
 cutoff_timestamp: Timestamp of the cutoff event
 
-actual_distance_to_destination: Measured distance to the destination
+actual_distance_to_destination: Measured distance to the destination (mean: 234.07, max: 1927.45)
 
-actual_time: Actual trip duration
+actual_time: Actual trip duration (mean: 416.93, max: 4532)
 
-osrm_time: Estimated time from OSRM (Open Source Routing Machine)
+osrm_time: Estimated time from OSRM (mean: 213.87, max: 1686)
 
-osrm_distance: Estimated distance from OSRM
+osrm_distance: Estimated distance from OSRM (mean: 284.77, max: 2326.19)
 
-factor: Ratio of actual to estimated time
+factor: Ratio of actual to estimated time (mean: 2.12, max: 77.39)
 
-segment_actual_time: Actual time for a trip segment
+segment_actual_time: Actual time for a trip segment (mean: 36.19, max: 3051)
 
-segment_osrm_time: Estimated time for a trip segment
+segment_osrm_time: Estimated time for a trip segment (mean: 18.50, max: 1611)
 
-segment_osrm_distance: Estimated distance for a trip segment
+segment_osrm_distance: Estimated distance for a trip segment (mean: 22.83, max: 2191.40)
 
-segment_factor: Ratio of actual to estimated time for a trip segment
+segment_factor: Ratio of actual to estimated time for a trip segment (mean: 2.21, max: 574.25)
 
 🎯 Project Goal
 
@@ -123,4 +123,30 @@ Delay Analysis: Frequency and causes of delivery delays.
 Cost Efficiency: Identify optimization potential through route adjustments.
 
 🚀 Progress & Results
+
+
+
+📈 Sample Insights (placeholder)
+
+(Add screenshots or graphs here after initial analysis.)
+
+🔗 Resources & Links
+
+Kaggle Dataset
+
+Project Dashboard (to be added after completion)
+
+GitHub Repository
+
+💡 Next Steps:
+
+Clean and preprocess the dataset in Google Colab.
+
+Create SQL queries for key performance metrics.
+
+Develop pivot tables in Excel.
+
+Build an interactive dashboard in Looker Studio.
+
+🖊️ Note:This project was developed as part of an application for the Business Analyst (d/m/w) position at AUTO1 Group.
 
