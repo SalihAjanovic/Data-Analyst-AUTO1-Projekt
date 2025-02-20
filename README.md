@@ -91,22 +91,24 @@ This project focuses on developing an **interactive dashboard** to analyze **log
 ---
 
 ### 📊 **2. Top 10 Destination Hubs by Shipment Volume**
-![Top 10 Destination Hubs](https://yourimagehosting.com/image2.png)
+![Top 10 Destination Hubs](https://imgur.com/NAmCea7.png)
 
 **Summary:**
 - The top **10 hubs** handle the highest shipment volumes.
 - **Gurgaon_Bilaspur_HB (Haryana)** is the busiest hub with **15,000+ shipments**, followed by **Bangalore_Nelmngla_H (Karnataka)** with **11,000+ shipments**.
 - These high-traffic hubs are critical for **logistics efficiency and resource optimization**.
 
+
 ---
 
 ### 📊 **3. Average Delay Factor by Route Type**
-![Average Delay Factor](https://yourimagehosting.com/image3.png)
+![Average Delay Factor](https://imgur.com/637PmLb.png)
 
 **Summary:**
 - **Carting routes have a higher average delay factor (2.4) compared to FTL (2.0)**.
 - This suggests **Carting routes may face more operational delays**.
 - FTL, despite having longer actual times, is relatively more predictable in delays.
+
 
 ---
 
