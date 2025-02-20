@@ -80,12 +80,13 @@ This project focuses on developing an **interactive dashboard** to analyze **log
 ## 📚 Key Insights & Visuals
 
 ### 📊 **1. Actual vs. Estimated Travel Time by Route Type**
-![Actual vs Estimated Travel Time](https://yourimagehosting.com/image1.png)
+![Actual vs Estimated Travel Time](https://imgur.com/uBTH2mm.png)
 
 **Summary:**
 - **FTL routes** have significantly higher travel times than **Carting routes**.
 - On average, actual travel times are **longer than OSRM-estimated times** across all route types.
 - **FTL deliveries take nearly twice the estimated time**, indicating potential inefficiencies or traffic constraints.
+
 
 ---
 
