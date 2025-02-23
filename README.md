@@ -53,9 +53,17 @@ This project focuses on developing an **interactive dashboard** to analyze **log
 - **Content:** Logistics data including transport types, routes, delivery times, and performance metrics.  
 - **Size:** 144,867 records  
 - **Structure:**  
+    - **`data`**: Identifies whether the data is for training or testing  
     - **`trip_creation_time`**: Timestamp when the trip was created  
+    - **`route_schedule_uuid`**: Unique ID for route scheduling  
     - **`route_type`**: Transport type (e.g., FTL)  
+    - **`trip_uuid`**: Unique ID for each trip  
+    - **`source_center`**: Code for the source logistics center  
+    - **`source_name`**: Name of the source logistics center  
+    - **`destination_center`**: Code for the destination logistics center  
     - **`destination_name`**: Name of the destination logistics center  
+    - **`od_start_time`**: Start time of the trip  
+    - **`od_end_time`**: End time of the trip  
     - **`actual_time`**: Actual trip duration *(mean: 416.93, max: 4532)*  
     - **`osrm_time`**: Estimated time from OSRM *(mean: 213.87, max: 1686)*  
     - **`delay_factor`**: Ratio of actual time to estimated time *(mean: 2.12, max: 77.39)*  
@@ -63,7 +71,10 @@ This project focuses on developing an **interactive dashboard** to analyze **log
     - **`efficiency_score`**: Distance covered per hour.  
     - **`time_variance`**: Difference between actual & estimated delivery time.  
     - **`route_category`**: Categorized as **Long-haul vs. Short-haul**.  
-
+    - **`segment_actual_time`**: Actual time for each segment of the trip.  
+    - **`segment_osrm_time`**: Estimated OSRM time for each segment.  
+    - **`segment_osrm_distance`**: Estimated OSRM distance per segment.  
+    - **`segment_factor`**: Ratio of actual to estimated time for segments.  
 ---
 
 ## 📚 Key Insights & Visuals
